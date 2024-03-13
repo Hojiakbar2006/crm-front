@@ -1,0 +1,23 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100%;
+  background: #eff3f5;
+  display: flex;
+
+
+
+  justify-content: center;
+}
+
+#root {
+  max-width: 1440px;
+  width: 100%;
+}
